@@ -285,11 +285,17 @@
             e.preventDefault();
             e.stopPropagation();
 
-            $('html, body').stop().animate({
-                'scrollTop': $target.offset().top
-            }, cfg.scrollDuration, 'swing').promise().done(function () {
-                window.location.hash = target;
-            });
+            // Check if target exists on current page
+            if ($target.length > 0) {
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, cfg.scrollDuration, 'swing').promise().done(function () {
+                    window.location.hash = target;
+                });
+            } else {
+                // If target doesn't exist on current page, navigate to the href
+                window.location.href = this.href;
+            }
         });
 
     };
