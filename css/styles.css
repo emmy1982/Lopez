@@ -4317,6 +4317,11 @@ html.no-csstransitions .s-hero__content {
     bottom: 0;
 }
 
+.title-oposiciones {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
 .s-oposiciones__content {
     position: relative;
     z-index: 2;
@@ -4472,6 +4477,7 @@ html.no-csstransitions .s-hero__content {
     .s-oposiciones__fases h3,
     .s-oposiciones__requisitos h3 {
         font-size: var(--text-lg);
+        
     }
 }
 
@@ -4498,7 +4504,7 @@ html.no-csstransitions .s-hero__content {
     
     .s-oposiciones__fase-item,
     .s-oposiciones__requisitos li {
-        font-size: var(--text-sm);
+        font-size: 1.6rem;
     }
 }
 
@@ -4511,10 +4517,17 @@ html.no-csstransitions .s-hero__content {
     .s-oposiciones__cta .btn {
         width: 100%;
         text-align: center;
+        font-size: 1.1rem;
+        
     }
     
     .s-oposiciones__stats {
         gap: var(--vspace-0_75);
+    }
+
+    .s-oposiciones__stat-item h3 {
+        font-size: var(--text-lg);
+        margin-top: 0;
     }
 }
 
@@ -4535,6 +4548,7 @@ html.no-csstransitions .s-hero__content {
     
     .s-oposiciones__stat-item h3 {
         font-size: var(--text-lg);
+        margin-top: 0;
     }
     
     .s-oposiciones__stat-item p {
@@ -5644,7 +5658,7 @@ html.no-csstransitions .s-hero__content {
 
 .faq-container {
     max-width: 1200px;
-    margin:  50px auto;
+    margin:  0 auto;
     position: relative;
     z-index: 2;
 }
@@ -5749,9 +5763,7 @@ html.no-csstransitions .s-hero__content {
         padding-bottom: calc(4 * var(--space));
     }
     
-    .faq-container {
-        margin-top: calc(3 * var(--vspace-3));
-    }
+    
     
     .faq-question h4 {
         font-size: var(--text-sm);
