@@ -5007,6 +5007,7 @@ html.no-csstransitions .s-hero__content {
 @media screen and (max-width: 600px) {
     .service-card-horizontal {
         margin-bottom: var(--vspace-1);
+        width: 88%;
     }
     
     .service-card-horizontal__image {
@@ -5034,7 +5035,7 @@ html.no-csstransitions .s-hero__content {
         font-size: var(--text-md);
     }
     .service-card-horizontal__features li {
-        font-size: var(--text-sm);
+        font-size:1.6rem;
     }
     
     .service-card {
@@ -6006,7 +6007,7 @@ html.no-csstransitions .s-hero__content {
     }
     
     .filosofia-card, .filosofia-card-1, .filosofia-card-2 {
-        width: 80%;
+        width: 88%;
         height: 500px;
         margin: 0 auto;
         background-size: cover;
@@ -6051,7 +6052,7 @@ html.no-csstransitions .s-hero__content {
     }
     
     .s-filosofia__cta .btn {
-        font-size: var(--text-base);
+        font-size: var(--text-sm);
         margin-bottom: 50px;
     }
 }
