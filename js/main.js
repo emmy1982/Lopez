@@ -108,7 +108,7 @@
             $siteBody.toggleClass('menu-is-open');
         });
 
-        $headerContent.find('.s-header__nav a, .btn').on("click", function() {
+        $headerContent.find('.s-header__nav a.smoothscroll, .btn').on("click", function() {
 
             // at 900px and below
             if (window.matchMedia('(max-width: 900px)').matches) {
