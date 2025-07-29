@@ -4129,7 +4129,7 @@ html.no-csstransitions .s-hero__content {
         opacity: 0.3;
         position: absolute;
         top: 0;
-        left: 78%;
+        left: 75%;
         transform: translateX(-50%);
         z-index: 1;
     
@@ -5977,6 +5977,7 @@ html.no-csstransitions .s-hero__content {
     /* padding-bottom: 100px; */
     position: relative;
     z-index: 2;
+    margin-bottom: 80px;
 }
 
 .s-filosofia__cta .btn:hover {
